@@ -15,7 +15,7 @@
 2. [Aquisição de imagens](#aquisicao)
 3. [Pré-processamento](#preprocessamento)
     1. [Sub paragraph](#subparagraph1)
-4. [processamento](#processamento)
+4. [Processamento](#processamento)
 
 5. [conclusao](#conclusao)
 
@@ -40,10 +40,16 @@ Objetivando simplificar o problema, os membros pertencentes a este projeto forma
 ## Aquisição de imagens<a name="aquisicao"></a>
 Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as imagens necessárias por meio da geração de vídeos que simulem o deslocamento dos objetos na esteira. Para este fim, utilizamos a biblioteca React do JavaScript para gerar o vídeo e também a inserção de ruídos no vídeo para melhor simular um caso real. permitindo assim que o sistema possa devidamente tratá-los. Uma exemplo de imagem produzida pode ser vista abaixo:
 
-## Pré-processamento <a name="preprocessamento"></a>
-The first paragraph text
+<p align="center">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/frames312.jpg" width="480">
+</p>
 
-### Sub paragraph <a name="subparagraph1"></a>
+A criação do vídeo é feita utilizando o método componentDidMoint(), que realiza os desenhos no canvas e posteriormente são renderizados. Por fim, as imagens já são adicionadas com ruidos inseridos.
+
+## Pré-processamento <a name="preprocessamento"></a>
+Na seção se pré-processamento temos
+
+### Processamento <a name="subparagraph1"></a>
 This is a sub paragraph, formatted in heading 3 style
 
 ## Another paragraph <a name="processamento"></a>
