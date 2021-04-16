@@ -12,11 +12,12 @@
 ## Sumário
 1. [Introdução](#introducao)
     1. [Estudo do problema](#estudo-problema)
+2. [Aquisição de imagens](#aquisicao)
 3. [Pré-processamento](#preprocessamento)
     1. [Sub paragraph](#subparagraph1)
 4. [processamento](#processamento)
-5. [interface](#interface)
-6. [conclusao](#conclusao)
+
+5. [conclusao](#conclusao)
 
 
 ## Introdução <a name="introducao"></a>
@@ -26,15 +27,18 @@
 ### Estudo do problema <a name="estudo-problema"></a>
 É aqui de forma sucinta brevemente explicado um apanhado do problema.
 
-Visando aferir qualitativamente a aplicação desenvolvida, fora produzido um vídeo que simulasse o deslocamento dos bolos em uma esteira de produção típica da indústria. Obtido o video, iniciou-se um devido tratamento dos seus frames para que os mesmos obtivessem melhores resultados durante a fase de processamento. Por fim, os frames pré-processados nos permitiu que pudessemos então
+Visando aferir qualitativamente a aplicação desenvolvida, fora produzido um vídeo que simulasse o deslocamento dos bolos em uma esteira de produção típica da indústria. Obtido o video, iniciou-se um devido tratamento dos seus frames para que os mesmos obtivessem melhores resultados durante a fase de processamento. Por fim, os frames pré-processados nos permitiu que pudessemos então:
 * Delinear os bolos, isto é, conseguir localizá-los em seus respectivos frames.
 * Identificar possíveis relevos, como também o centro do bolo para assim conseguir classificá-los.
 
 Objetivando simplificar o problema, os membros pertencentes a este projeto formaram 5 equipes as quais atuariam independentemente visando assim concluir os requisitos de forma mais eficiente. As equipes formadas foram:
-* Interface de Usuário
+* Aquisição das imagens
 * Pré-processamento do vídeo
 * Processamento do vídeo
 * Teste e qualidade
+
+## Aquisição de imagens<a name="aquisicao"></a>
+Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as imagens necessárias por meio da geração de vídeos que simulem o deslocamento dos objetos na esteira. Para este fim, utilizamos a biblioteca React do JavaScript para gerar o vídeo e também a inserção de ruídos no vídeo para melhor simular um caso real. permitindo assim que o sistema possa devidamente tratá-los. Uma exemplo de imagem produzida pode ser vista abaixo:
 
 ## Pré-processamento <a name="preprocessamento"></a>
 The first paragraph text
@@ -44,9 +48,6 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Another paragraph <a name="processamento"></a>
 The second paragraph text
-
-## Interface <a name="interface"></a>
-This project is simple Lorem ipsum dolor generator.
 
 ## Conclusão <a name="conclusao"></a>
 This project is simple Lorem ipsum dolor generator.
