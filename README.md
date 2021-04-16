@@ -24,12 +24,17 @@
 É de fundamental importância definir todos os requisitos de uma aplicação para que se possa garantir um resultado mínimo desejado, pois é com base neles que o projeto será guiado.</p>
 
 ### Estudo do problema <a name="estudo-problema"></a>
-De forma sucinta é aqui brevemente explicado um apanhado do problema.
+É aqui de forma sucinta brevemente explicado um apanhado do problema.
 
 Visando aferir qualitativamente a aplicação desenvolvida, fora produzido um vídeo que simulasse o deslocamento dos bolos em uma esteira de produção típica da indústria. Obtido o video, iniciou-se um devido tratamento dos seus frames para que os mesmos obtivessem melhores resultados durante a fase de processamento. Por fim, os frames pré-processados nos permitiu que pudessemos então
 * Delinear os bolos, isto é, conseguir localizá-los em seus respectivos frames.
-* Identificar possíveis relevos, para assim conseguir classificá-los.
+* Identificar possíveis relevos, como também o centro do bolo para assim conseguir classificá-los.
 
+Objetivando simplificar o problema, os membros pertencentes a este projeto formaram 5 equipes as quais atuariam independentemente visando assim concluir os requisitos de forma mais eficiente. As equipes formadas foram:
+* Interface de Usuário
+* Pré-processamento do vídeo
+* Processamento do vídeo
+* Teste e qualidade
 
 ## Pré-processamento <a name="preprocessamento"></a>
 The first paragraph text
