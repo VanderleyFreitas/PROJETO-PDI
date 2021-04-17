@@ -210,5 +210,12 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 | Passo a Passo  | Executar as funções achar_bolos(), processamento(), frame_processado() e  cv2.videoWriter(). |
 | | Verificar se o vídeo com os bolos identificados foi gerado com sucesso. |
 
+### Resultados
+- Caso de teste CT001
+
+- Caso de teste CT002
+
+- Caso de teste CT003
+
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
