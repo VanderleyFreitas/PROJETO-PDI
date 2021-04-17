@@ -218,7 +218,7 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 
 - Caso de teste CT002
 <p align="left">
-<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_image_result.jpg" width="300">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/Resultado Preprocessamento.jpg" width="300">
 </p>
 
 - Caso de teste CT003
