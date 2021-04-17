@@ -49,7 +49,7 @@ Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as 
 <p align="center">Figura 1 - Exemplo de imagem adquirida na aquisição de imagens</p>
 
 ### Tecnologias Utilizadas
-Na criação do vídeo:
+- Na criação do vídeo:
 O vídeo foi criado com React que é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. Também
 foram utilizados HTML e CSS, que são, respectivamente, uma linguagem baseada em marcação, que marca os elementos para definir quais
 informações serão exibidas pela página e uma linguagem de folha de estilo que é composta por camadas tendo como função definir o visual (aparência)
