@@ -31,7 +31,12 @@
     3. [Requisitos Funcionais](#reqfun)
     4. [Especificação dos Casos de Teste](#espct)
     5. [Resultados](#result)
-7. [conclusao](#conclusao)
+7. [Conclusao](#conclusao)
+8. [Apendice - Listagem das Equipes](#apendice)
+    1. [Equipe de Interface](#int)
+    2. [Equipe de Pré-processamento](#prepro)
+    3. [Equipe de Processamento](#pro)
+    4. [Equipe de Teste e Qualidade](#tq)
 
 
 ## Introdução <a name="introducao"></a>
@@ -243,15 +248,15 @@ Como pode ser verificado abaixo, nenhum caso de teste falhou, logo todos os requ
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
 
-## Apendice - Listagem das Equipes
+## Apendice - Listagem das Equipes<a name="apendice"></a>
 
-### Equipe de Gerência
+### Equipe de Gerência<a name="ger"></a>
 - Tarefas : orientar as tarefas das demais líderes equipes; fiscalizar as atividades executadas.
 | Nome  | Matrícula |
 |---|---|
 | JOSE VANDERLEY SOUSA DE FREITAS FILHO  | 422535 |
 
-### Equipe de Interface
+### Equipe de Interface<a name="int"></a>
 - Tarefas : desenvolver interface de usuário; integrar sistema de contagem com interface; garantir portabilidade e usabilidade
 - Líder : ANTONIO RICARDO COELHO ALCANTARA JUNIOR (409913)
 
@@ -261,7 +266,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | ELANO ROLIM MELO  | 408845 |
 | BEATRIZ RODRIGUES MONTE  | 371781 |
 
-### Equipe de Pré-processamento
+### Equipe de Pré-processamento<a name="prepro"></a>
 - Tarefas : transformar vídeo em imagens de frames; converter imagens para preto-e-branco; filtrar imagem (remover ruído, etc), realce (realce por contraste, realce de borda, etc.)
 - Líder : MESSIAS TAYLLAN TELES FARIAS (418127)
 
@@ -275,7 +280,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | LAURA SANTIAGO CAMPOS OLIVEIRA  | 412887 |
 | ANDRÉ LUIS DANTAS GADELHA  | 399184 |
 
-### Equipe de Processamento
+### Equipe de Processamento<a name="pro"></a>
 - Tarefas : classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
 - Líder : ALUISIO ALVES DA CUNHA (409878)
 
@@ -289,7 +294,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | TOMAS DE CARVALHO COELHO  | 418391 |
 | RAYANE MARUSCA SOUSA DE ASSIS  | 371858 |
 
-### Equipe de Teste e Qualidade
+### Equipe de Teste e Qualidade<a name="tq"></a>
 - Tarefas : garantir que o projeto atende os requisitos; garantir funcionalidades e qualidade do produto; projetar e testar novas funcionalidades; elaborar documentação;
 - Líder : RANCISCO CARLOS DE ALMEIDA PAULINO FILHO (371801)
 
