@@ -186,27 +186,29 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 | Dados de Entrada  | Imagens de bolo e ruído. |
 | Passo a Passo  | Executar o método componentDidMoint; |
 | | Verificar se o vídeo foi criado com sucesso. |
-| | Verificar se a velocidade está presente no vídeo. |
+| | Verificar se o medidor de velocidade está presente no vídeo. |
 
 | ID do RF  | RF002 |
 |---|---|
 | ID do Cenário de Teste  | CE002 |
-| Nome do Cenário  | RF001 |
+| Nome do Cenário  | Validar pré-processamento do vídeo da esteira de bolo |
 | ID do Caso de Teste  | CT002 |
-| Nome do Caso de Teste  | RF001 |
-| Precondição  | RF001 |
-| Dados de Entrada  | RF001 |
-| Passo a Passo  | RF001 |
+| Nome do Caso de Teste  | Vídeo pré-processado com ruído |
+| Precondição  | Vídeo da esteira de bolo com ruído |
+| Dados de Entrada  | Vídeo com ruído |
+| Passo a Passo  | Executar método de candy e linearização; |
+| | Verificar retorno da imagem somente com as bordas. |
 
-| ID do RF  | RF002 |
+| ID do RF  | RF003 |
 |---|---|
-| ID do Cenário de Teste  | CE002 |
-| Nome do Cenário  | RF001 |
+| ID do Cenário de Teste  | CE003 |
+| Nome do Cenário  | Validar processamento do vídeo da esteira de bolo pré-processado |
 | ID do Caso de Teste  | CT003 |
-| Nome do Caso de Teste  | RF001 |
-| Precondição  | RF001 |
-| Dados de Entrada  | RF001 |
-| Passo a Passo  | RF001 |
+| Nome do Caso de Teste  | Vídeo processado com ruído |
+| Precondição  | Vídeo da esteira de bolo pré-processado com ruído |
+| Dados de Entrada  | Vídeo pré-processado com ruído |
+| Passo a Passo  | Executar as funções achar_bolos(), processamento(), frame_processado() e  cv2.videoWriter(). |
+| | Verificar se o vídeo com os bolos identificados foi gerado com sucesso. |
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
