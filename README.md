@@ -302,4 +302,5 @@ Com o término da execução do projeto e a devida implementação e teste do me
 
 | Nome  | Matrícula |
 |---|---|
+| FRANCISCO CARLOS DE ALMEIDA PAULINO FILHO | 371801 |
 | ABEL PINHEIRO DE FIGUEIREDO  | 396432 |
