@@ -13,13 +13,24 @@
 ## Sumário
 1. [Introdução](#introducao)
     1. [Estudo do problema](#estudo-problema)
-2. [Aquisição de imagens](#aquisicao)
-    1. [Algoritmo](#algoritmo)
+2. [Interface](#interface)
+    1. [Objetivo](#objetivoi)
+    2. [Tecnologias Utilizadas](#teci)
+    3. [Metodologia](#meti)
 4. [Pré-processamento](#preprocessamento)
-    1. [Sub paragraph](#subparagraph1)
+    1. [Objetivo](#objetivopp)
+    2. [Tecnologias Utilizadas](#tecpp)
+    3. [Metodologia](#metpp)
 5. [Processamento](#processamento)
-
-5. [conclusao](#conclusao)
+    1. [Objetivo](#objetivop)
+    2. [Tecnologias Utilizadas](#tecp)
+    3. [Metodologia](#metp)
+6. [Teste e Qualidade](#testeequalidade)
+    1. [Objetivo](#objetivtq)
+    2. [Metodologia](#mettq)
+    2.1 [Requisitos Funcionais](#reqfun)
+    3. [Resultados](#result)
+7. [conclusao](#conclusao)
 
 
 ## Introdução <a name="introducao"></a>
@@ -40,7 +51,7 @@ Objetivando simplificar o problema, os membros pertencentes a este projeto forma
 * Teste e qualidade
 
 ## Interface<a name="interface"></a>
-### Objetivo
+### Objetivo<a name="objetivoi"></a>
 Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as imagens necessárias por meio da geração de vídeos que simulem o deslocamento dos objetos na esteira. Para este fim, utilizamos a biblioteca React do JavaScript para gerar o vídeo e também a inserção de ruídos no vídeo para melhor simular um caso real. permitindo assim que o sistema possa devidamente tratá-los. Uma exemplo de imagem produzida pode ser vista abaixo:
 
 <p align="center">
@@ -48,7 +59,7 @@ Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as 
 </p>
 <p align="center">Figura 1 - Exemplo de imagem adquirida na aquisição de imagens</p>
 
-### Tecnologias Utilizadas
+### Tecnologias Utilizadas<a name="teci"></a>
 - Na criação do vídeo:
 O vídeo foi criado com React que é uma biblioteca JavaScript de código aberto com foco em criar interfaces de usuário em páginas web. Também
 foram utilizados HTML e CSS, que são, respectivamente, uma linguagem baseada em marcação, que marca os elementos para definir quais
@@ -59,7 +70,7 @@ O Python foi a ferramenta utilizada na geração de ruídos no vídeo, com as bi
 estáticas, animadas e interativas, a Numpy, que é usada para manipulação de matrizes e possui uma larga coleção de funções matemáticas para
 trabalhar com essas estruturas e, por último, a biblioteca OpenCV (cv2) que foi utilizada para manipulação de imagens.
 
-### Metodologia
+### Metodologia<a name="meti"></a>
 O vídeo é criado no arquivo Index.tsx, pelo método componentDidMoint() onde as imagens são desenhadas no canvas. No arquivo tem um método chamado render()
 que é responsável por renderizar o vídeo que é produzido pela biblioteca chamada PIXI.js.
 As imagens usadas no projeto para a criação do vídeo ficam alocadas na pasta “sprites” em src/pages/Index/sprites.
@@ -68,17 +79,17 @@ Na parte de adição de ruídos, foi escolhido dois grupos de forma aleatória d
 tornamos todos os pixels 0,0,0 e o outro para 255,255,255.
 
 ## Pré-processamento <a name="preprocessamento"></a>
-### Objetivo
+### Objetivo<a name="objetivopp"></a>
 Na seção de pré-processamento temos como atividade a manipulação das imagens obtidas com o intuito de realizar correções suficientes para que as mesmas estejam aptas ou adequadas para serem processadas. No contexto deste trabalho, estaremos minimizando possíveis ruídos inerentes da obtenção das imagens pelas câmeras e também gerando informações que permitam a equipe de processamento inferir as diferentes classes dos bolos.
 Nesta seção, portanto, fora operado os seguintes métodos:
 - Detecção de bordas de Canny
 - Transformações morfológicas
 
-### Tecnologias Utilizadas
+### Tecnologias Utilizadas<a name="tecpp"></a>
 - Biblioteca Skimage para implementação do algorítimo de Canny.
 - Biblioteca CV2 para o ajuste dos contornos de cada bolo.
 
-### Metodologia <a name="metodologia"></a>
+### Metodologia<a name="metpp"></a>
 O algoritmo de Canny é um famoso método para realizar a detecção de bordas em uma imagem. Este algoritmo basicamente segue os seguintes passos:
 - **Redução de ruído**. Como as bordas são suscetíveis a ruídos, é um aplicado um filtro Gaussiano para removê-lo.
 - **Busca do gradiente de intensidade**. A imagem suavizada é então filtrada com o operador de Sorbel nas direções horizontais e verticais, assim obtendo as primeiras derivadas dessas direções. Com isso, podemos encontrar a direção do gradiente e consequentemente as bordas.
@@ -105,16 +116,16 @@ Transformações morfológicas são operações simples com a imagem utilizando-
 <p align="center">Figura 2 - Resultado da imagem com as técnicas de pré-processamento aplicado</p>
 
 ## Processamento <a name="processamento"></a>
-### Objetivo
+### Objetivo<a name="objetivop"></a>
 Os frames pré-processados são recebidos da etapa anterior para o processamento. Esta etapa tem como objetivo identificar os contornos dos bolos nas imagens e classificá-los quanto aos diferentes padrões de cobertura (coberto, semi-coberto ou não-coberto). Ao final do processo, devemos ter imagens com a classificação visível (em retângulos de cores diferentes contendo os bolos) e um vídeo gerado a partir dos frames processados.
 
-### Tecnologias Utilizadas
+### Tecnologias Utilizadas<a name="tecp"></a>
 Para realizar o processamento descrito acima, foram usados métodos implementados na
 linguagem Python, usando alguns módulos da linguagem. São eles:
 - Numpy: usado para lidar com arrays multidimensionais;
 - CV2: biblioteca com métodos do OpenCV, usada para processamento de imagens.
 
-### Metodologia
+### Metodologia<a name="metp"></a>
 O processamento foi dividido em 4 grandes etapas, que englobam certas funções das
 bibliotecas importadas: achar_bolos(), processamento(), frame_processado() e a compilação
 dos frames em um vídeo final, no qual os bolos estão classificados visualmente.
@@ -161,20 +172,20 @@ Por fim, temos um vídeo no qual os bolos estão destacados em retângulos, de c
 colorido de acordo com a classificação encontrada: verde para coberto, azul para semi-coberto
 e vermelho para não-coberto.
 
-## Teste e Qualidade <a name="teste e qualidade"></a>
-### Objetivo
+## Teste e Qualidade <a name="testeequalidade"></a>
+### Objetivo<a name="objetivotq"></a>
 Esta etapa tem o propósito de detalhar por completo o projeto Identificador de Bolos a ser desenvolvido com a participação de toda a turma da disciplina de “Fundamentos de Processamento Digital de Imagens” gerenciada pelo aluno Vanderley Freitas. É de fundamental importância definir todos os requisitos de uma aplicação para que se possa garantir um resultado mínimo desejado, pois é com base neles que o projeto será guiado. Nesse documento será apresentado todos os requisitos funcionais necessários para o projeto, bem como os resultados dos testes realizados.
 
-### Metodologia
+### Metodologia<a name="mettq"></a>
 Para garantia do teste e qualidade os seguintes tópícos foram implementados.
 
-#### Requisitos Funcionais: 
+#### Requisitos Funcionais: <a name="reqfun"></a>
 Os requisitos abaixo representam, de forma geral, todos os problemas e necessidades que devem então ser atendidas e solucionadas pela aplicação.
 - RF001 Geração de vídeo de esteira de bolos. Os bolos devem aparecer de maneira aleatória, com velocidade variante e a velocidade deve estar presente no vídeo.
 - RF002 Pré-processamento do vídeo da esteira de bolos. O vídeo gerado no RF001 deve ser manipulado para que o mesmo contenha apenas as bordas relevantes de cada bolo.
 - RF003 Processamento e Identificação dos bolos. Identificar se o bolo tem a cobertura completa, metade da cobertura ou nenhuma cobertura com base nas bordas retornadas pelo RF002.
 
-#### Especificação dos Casos de Teste
+#### Especificação dos Casos de Teste<a name="espct"></a>
 
 | ID do RF  | RF001 |
 |---|---|
@@ -210,7 +221,7 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 | Passo a Passo  | Executar as funções achar_bolos(), processamento(), frame_processado() e  cv2.videoWriter(). |
 | | Verificar se o vídeo com os bolos identificados foi gerado com sucesso. |
 
-### Resultados
+### Resultados<a name="result"></a>
 Como pode ser verificado abaixo, nenhum caso de teste falhou, logo todos os requisitos informados foram atendidos.
 
 - Caso de teste CT001
