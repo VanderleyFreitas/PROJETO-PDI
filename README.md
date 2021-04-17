@@ -75,7 +75,8 @@ Nesta seção, portanto, fora operado os seguintes métodos:
 - Transformações morfológicas
 
 ### Tecnologias Utilizadas
-Foi utilizada as bibliotecas Skimage para implementação do algorítimo de Canny e a biblioteca CV2 para o ajuste dos contornos de cada bolo.
+- Biblioteca Skimage para implementação do algorítimo de Canny.
+- Biblioteca CV2 para o ajuste dos contornos de cada bolo.
 
 ### Metodologia <a name="metodologia"></a>
 O algoritmo de Canny é um famoso método para realizar a detecção de bordas em uma imagem. Este algoritmo basicamente segue os seguintes passos:
