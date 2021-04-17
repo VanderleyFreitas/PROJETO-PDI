@@ -95,7 +95,7 @@ Transformações morfológicas são operações simples com a imagem utilizando-
 
 <p align="center">Figura 2 - Implementação das operações morfológicas</p>
 
-### Processamento <a name="processamento"></a>
+## Processamento <a name="processamento"></a>
 ## Objetivo
 Os frames pré-processados são recebidos da etapa anterior para o processamento. Esta etapa tem como objetivo identificar os contornos dos bolos nas imagens e classificá-los quanto aos diferentes padrões de cobertura (coberto, semi-coberto ou não-coberto). Ao final do processo, devemos ter imagens com a classificação visível (em retângulos de cores diferentes contendo os bolos) e um vídeo gerado a partir dos frames processados.
 
