@@ -171,7 +171,37 @@ Para garantia do teste e qualidade os seguintes tópícos foram implementados.
 #### Requisitos Funcionais: 
 Os requisitos abaixo representam, de forma geral, todos os problemas e necessidades que devem então ser atendidas e solucionadas pela aplicação.
 - RF001 Geração de vídeo de esteira de bolos. Os bolos devem aparecer de maneira aleatória, com velocidade variante e a velocidade deve estar presente no vídeo.
- 
+- RF002 Pré-processamento do vídeo da esteira de bolos. O vídeo gerado no RF001 deve ser manipulado para que o mesmo contenha apenas as bordas relevantes de cada bolo.
+- RF003 Processamento e Identificação dos bolos. Identificar se o bolo tem a cobertura completa, metade da cobertura ou nenhuma cobertura com base nas bordas retornadas pelo RF002.
+
+#### Especificação dos Casos de Teste
+
+| ID do RF  | RF001 |
+| ID do Cenário de Teste  | CE001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+
+| ID do RF  | RF002 |
+| ID do Cenário de Teste  | CE002 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+
+| ID do RF  | RF002 |
+| ID do Cenário de Teste  | CE002 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
+| ID do RF  | RF001 |
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
