@@ -167,8 +167,10 @@ Esta etapa tem o propósito de detalhar por completo o projeto Identificador de 
 
 ### Metodologia
 Para garantia do teste e qualidade os seguintes tópícos foram implementados.
- - Requisitos Funcionais: Os requisitos abaixo representam, de forma geral, todos os problemas e necessidades que devem então ser atendidas e solucionadas pela aplicação.
-  - RF001 Geração de vídeo de esteira de bolos. Os bolos devem aparecer de maneira aleatória, com velocidade variante e a velocidade deve estar presente no vídeo.
+
+#### Requisitos Funcionais: 
+Os requisitos abaixo representam, de forma geral, todos os problemas e necessidades que devem então ser atendidas e solucionadas pela aplicação.
+- RF001 Geração de vídeo de esteira de bolos. Os bolos devem aparecer de maneira aleatória, com velocidade variante e a velocidade deve estar presente no vídeo.
  
 
 ## Conclusão <a name="conclusao"></a>
