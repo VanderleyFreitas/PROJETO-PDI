@@ -1,4 +1,5 @@
 <p align="center">
+  <img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/ufc_brasao.jpg" width="120">
   <h2 align="center">Identificador de bolos</h2>
   <p align="center">
     FUNDAMENTOS DE PROCESSAMENTO DIGITAL DE IMAGENS
@@ -39,14 +40,15 @@ Objetivando simplificar o problema, os membros pertencentes a este projeto forma
 * Teste e qualidade
 
 ## Aquisição de imagens<a name="aquisicao"></a>
-## Objetivo
+### Objetivo
 Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as imagens necessárias por meio da geração de vídeos que simulem o deslocamento dos objetos na esteira. Para este fim, utilizamos a biblioteca React do JavaScript para gerar o vídeo e também a inserção de ruídos no vídeo para melhor simular um caso real. permitindo assim que o sistema possa devidamente tratá-los. Uma exemplo de imagem produzida pode ser vista abaixo:
 
 <p align="center">
 <img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/frames312.jpg" width="480">
 </p>
 <p align="center">Figura 1 - Exemplo de imagem adquirida na aquisição de imagens</p>
-## Metodologia
+
+### Metodologia
 A criação do vídeo é feita utilizando o método componentDidMoint(), que realiza os desenhos no canvas e posteriormente são renderizados. Por fim, as imagens já são adicionadas com ruidos inseridos.
 
 ## Pré-processamento <a name="preprocessamento"></a>
@@ -108,4 +110,4 @@ Esta etapa tem o propósito de detalhar por completo o projeto Identificador de 
 
 
 ## Conclusão <a name="conclusao"></a>
-This project is simple Lorem ipsum dolor generator.
+Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
