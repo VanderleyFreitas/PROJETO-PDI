@@ -211,6 +211,8 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 | | Verificar se o vídeo com os bolos identificados foi gerado com sucesso. |
 
 ### Resultados
+Como pode ser verificado abaixo, nenhum caso de teste falhou, logo todos os requisitos informados foram atendidos.
+
 - Caso de teste CT001
 <p align="left">
 <img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/frames312.jpg" width="300">
