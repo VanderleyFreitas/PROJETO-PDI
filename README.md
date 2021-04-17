@@ -28,8 +28,9 @@
 6. [Teste e Qualidade](#testeequalidade)
     1. [Objetivo](#objetivtq)
     2. [Metodologia](#mettq)
-    2.1 [Requisitos Funcionais](#reqfun)
-    3. [Resultados](#result)
+    3. [Requisitos Funcionais](#reqfun)
+    4. [Especificação dos Casos de Teste](#espct)
+    5. [Resultados](#result)
 7. [conclusao](#conclusao)
 
 
