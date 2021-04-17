@@ -179,8 +179,20 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 | ID do RF  | RF001 |
 |---|---|
 | ID do Cenário de Teste  | CE001 |
+| Nome do Cenário  | Validar vídeo da esteira de bolo |
+| ID do Caso de Teste  | CT001 |
+| Nome do Caso de Teste  | Vídeo gerado com ruído |
+| Precondição  | Imagem de bolo com cobertura, com cobertura pela metade e sem cobertura |
+| Dados de Entrada  | Imagens de bolo e ruído. |
+| Passo a Passo  | Executar o método componentDidMoint; |
+| | Verificar se o vídeo foi criado com sucesso. |
+| | Verificar se a velocidade está presente no vídeo. |
+
+| ID do RF  | RF002 |
+|---|---|
+| ID do Cenário de Teste  | CE002 |
 | Nome do Cenário  | RF001 |
-| ID do Caso de Teste  | RF001 |
+| ID do Caso de Teste  | CT002 |
 | Nome do Caso de Teste  | RF001 |
 | Precondição  | RF001 |
 | Dados de Entrada  | RF001 |
@@ -190,17 +202,7 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 |---|---|
 | ID do Cenário de Teste  | CE002 |
 | Nome do Cenário  | RF001 |
-| ID do Caso de Teste  | RF001 |
-| Nome do Caso de Teste  | RF001 |
-| Precondição  | RF001 |
-| Dados de Entrada  | RF001 |
-| Passo a Passo  | RF001 |
-
-| ID do RF  | RF002 |
-|---||
-| ID do Cenário de Teste  | CE002 |
-| Nome do Cenário  | RF001 |
-| ID do Caso de Teste  | RF001 |
+| ID do Caso de Teste  | CT003 |
 | Nome do Caso de Teste  | RF001 |
 | Precondição  | RF001 |
 | Dados de Entrada  | RF001 |
