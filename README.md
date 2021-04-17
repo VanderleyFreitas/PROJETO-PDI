@@ -266,6 +266,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | CARLOS ALFREDO CORDEIRO DE VASCONCELOS FILHO  | 419020 |
 | ELANO ROLIM MELO  | 408845 |
 | BEATRIZ RODRIGUES MONTE  | 371781 |
+| Antônio Ricardo Coelho Alcântara Júnior  | 409913 |
 
 ### Equipe de Pré-processamento<a name="prepro"></a>
 - Tarefas : transformar vídeo em imagens de frames; converter imagens para preto-e-branco; filtrar imagem (remover ruído, etc), realce (realce por contraste, realce de borda, etc.)
