@@ -166,7 +166,10 @@ e vermelho para não-coberto.
 Esta etapa tem o propósito de detalhar por completo o projeto Identificador de Bolos a ser desenvolvido com a participação de toda a turma da disciplina de “Fundamentos de Processamento Digital de Imagens” gerenciada pelo aluno Vanderley Freitas. É de fundamental importância definir todos os requisitos de uma aplicação para que se possa garantir um resultado mínimo desejado, pois é com base neles que o projeto será guiado. Nesse documento será apresentado todos os requisitos funcionais necessários para o projeto, bem como os resultados dos testes realizados.
 
 ### Metodologia
-
+Para garantia do teste e qualidade os seguintes tópícos foram implementados.
+ - Requisitos Funcionais: Os requisitos abaixo representam, de forma geral, todos os problemas e necessidades que devem então ser atendidas e solucionadas pela aplicação.
+  - RF001 Geração de vídeo de esteira de bolos. Os bolos devem aparecer de maneira aleatória, com velocidade variante e a velocidade deve estar presente no vídeo.
+ 
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
