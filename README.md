@@ -242,3 +242,53 @@ Como pode ser verificado abaixo, nenhum caso de teste falhou, logo todos os requ
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
+
+## Apendice - Listagem das Equipes
+
+### Equipe de Gerência
+- Tarefas : orientar as tarefas das demais líderes equipes; fiscalizar as atividades executadas.
+| Nome  | Matrícula |
+|---|---|
+| JOSE VANDERLEY SOUSA DE FREITAS FILHO  | 422535 |
+
+### Equipe de Interface
+- Tarefas : desenvolver interface de usuário; integrar sistema de contagem com interface; garantir portabilidade e usabilidade
+- Líder : ANTONIO RICARDO COELHO ALCANTARA JUNIOR (409913)
+
+| Nome  | Matrícula |
+|---|---|
+| CARLOS ALFREDO CORDEIRO DE VASCONCELOS FILHO  | 419020 |
+| ELANO ROLIM MELO  | 408845 |
+| BEATRIZ RODRIGUES MONTE  | 371781 |
+
+### Equipe de Pré-processamento
+- Tarefas : transformar vídeo em imagens de frames; converter imagens para preto-e-branco; filtrar imagem (remover ruído, etc), realce (realce por contraste, realce de borda, etc.)
+- Líder : MESSIAS TAYLLAN TELES FARIAS (418127)
+
+| Nome  | Matrícula |
+|---|---|
+| BRUNO DA SILVA MOURA  | 396433 |
+| EMMANUEL VICTOR BARBOSA SAMPAIO  | 417180 |
+| VINICIUS ALMEIDA DE CASTRO  | 413129 |
+| IURY LIMA ROSAL  | 422067 |
+| LUIS GUSTAVO DE CASTRO SOUSA  | 418210 |
+| LAURA SANTIAGO CAMPOS OLIVEIRA  | 412887 |
+| ANDRÉ LUIS DANTAS GADELHA  | 399184 |
+
+### Equipe de Processamento
+- Tarefas : Classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
+- Líder : ALUISIO ALVES DA CUNHA (409878)
+
+| Nome  | Matrícula |
+|---|---|
+| CLAILTON ALMEIDA LOPES  | 400091 |
+| DANIEL LEMOS SIMOES  | 398985 |
+| JOSE ERIVAN TEIXEIRA PAIVA FILHO  | 398698 |
+| GUSTAVO FILIPE DO NASCIMENTO  | 402889 |
+| EDUARDO SERPA  | 418972 |
+| TOMAS DE CARVALHO COELHO  | 418391 |
+| RAYANE MARUSCA SOUSA DE ASSIS  | 371858 |
+
+### Equipe de Teste e Qualidade
+- Tarefas : Classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
+- Líder : ALUISIO ALVES DA CUNHA (409878)
