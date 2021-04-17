@@ -177,31 +177,34 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 #### Especificação dos Casos de Teste
 
 | ID do RF  | RF001 |
+|---|---|
 | ID do Cenário de Teste  | CE001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
+| Nome do Cenário  | RF001 |
+| ID do Caso de Teste  | RF001 |
+| Nome do Caso de Teste  | RF001 |
+| Precondição  | RF001 |
+| Dados de Entrada  | RF001 |
+| Passo a Passo  | RF001 |
 
 | ID do RF  | RF002 |
+|---|---|
 | ID do Cenário de Teste  | CE002 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
+| Nome do Cenário  | RF001 |
+| ID do Caso de Teste  | RF001 |
+| Nome do Caso de Teste  | RF001 |
+| Precondição  | RF001 |
+| Dados de Entrada  | RF001 |
+| Passo a Passo  | RF001 |
 
 | ID do RF  | RF002 |
+|---||
 | ID do Cenário de Teste  | CE002 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
-| ID do RF  | RF001 |
+| Nome do Cenário  | RF001 |
+| ID do Caso de Teste  | RF001 |
+| Nome do Caso de Teste  | RF001 |
+| Precondição  | RF001 |
+| Dados de Entrada  | RF001 |
+| Passo a Passo  | RF001 |
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
