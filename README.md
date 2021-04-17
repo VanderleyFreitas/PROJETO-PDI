@@ -222,6 +222,9 @@ Os requisitos abaixo representam, de forma geral, todos os problemas e necessida
 </p>
 
 - Caso de teste CT003
+<p align="left">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/Resultado Processamento.jpg" width="300">
+</p>
 
 ## Conclusão <a name="conclusao"></a>
 Com o término da execução do projeto e a devida implementação e teste do mesmo, podemos concluir que o ele atendeu os requisitos do funcionamento anteriormente planejado pelas equipes. Com os resultados obtidos, pode-se entender que a aplicação prática deste projeto poderiam ser novos passos para estudos futuros deste problema. Com a aplicação existente em uma indústria poderia fazer uma nova avaliação da eficácia do sistema e aperfeiçoar possíveis parâmetros adjuntos de novas variáveis inseridas no problema.
