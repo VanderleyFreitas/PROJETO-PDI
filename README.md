@@ -297,7 +297,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 
 ### Equipe de Teste e Qualidade<a name="tq"></a>
 - Tarefas : garantir que o projeto atende os requisitos; garantir funcionalidades e qualidade do produto; projetar e testar novas funcionalidades; elaborar documentação;
-- Líder : RANCISCO CARLOS DE ALMEIDA PAULINO FILHO (371801)
+- Líder : FRANCISCO CARLOS DE ALMEIDA PAULINO FILHO (371801)
 
 | Nome  | Matrícula |
 |---|---|
