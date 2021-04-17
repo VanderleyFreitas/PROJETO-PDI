@@ -252,6 +252,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 
 ### Equipe de Gerência<a name="ger"></a>
 - Tarefas : orientar as tarefas das demais líderes equipes; fiscalizar as atividades executadas.
+
 | Nome  | Matrícula |
 |---|---|
 | JOSE VANDERLEY SOUSA DE FREITAS FILHO  | 422535 |
