@@ -70,16 +70,16 @@ O algoritmo de Canny é um famoso método para realizar a detecção de bordas e
 Para o caso do algoritmo aplicado, foi-se usado um desvio padrão de 5 e limiares com 10% e 15% do valor da intensidade máxima da imagem. Fornecemos esses parâmetros em conjunto com a imagem na função acima resultará na imagem abaixo:
 
 <p align="center">
-<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_canny.jpg" width="600">
 </p>
-<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+<p align="center">Figura 2 - Implementação do algoritmo de detecção de bordas de Canny</p>
 
 Transformações morfológicas são operações simples com a imagem utilizando-se principalmente de suas formas. No contexto desse projeto nós utilizamos operador de **fechamento**, que ajuda a remover o ruído interno (como pequenos buracos) dos objetos de estudo da imagem. Além deste, também utilizamos o operador gradiente morfológico para encontrar contornos no objeto. Abaixo, podemos ver como estes operadores foram utilizados:
 <p align="center">
-<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_image_result.jpg" width="600">
 </p>
 
-<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+<p align="center">Figura 2 - Resultado da imagem com as técnicas de pré-processamento aplicado</p>
 
 ## Metodologia
 
