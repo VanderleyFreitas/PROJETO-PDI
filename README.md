@@ -50,11 +50,37 @@ Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as 
 A criação do vídeo é feita utilizando o método componentDidMoint(), que realiza os desenhos no canvas e posteriormente são renderizados. Por fim, as imagens já são adicionadas com ruidos inseridos.
 
 ## Pré-processamento <a name="preprocessamento"></a>
-## Objetivo
 Na seção de pré-processamento temos como atividade a manipulação das imagens obtidas com o intuito de realizar correções suficientes para que as mesmas estejam aptas ou adequadas para serem processadas. No contexto deste trabalho, estaremos minimizando possíveis ruídos inerentes da obtenção das imagens pelas câmeras e também gerando informações que permitam a equipe de processamento inferir as diferentes classes dos bolos.
 Nesta seção, portanto, fora operado os seguintes métodos:
 - Detecção de bordas de Canny
 - Transformações morfológicas
+
+### Algoritmo <a name="algoritmo"></a>
+O algoritmo de Canny é um famoso método para realizar a detecção de bordas em uma imagem. Este algoritmo basicamente segue os seguintes passos:
+- **Redução de ruído**. Como as bordas são suscetíveis a ruídos, é um aplicado um filtro Gaussiano para removê-lo.
+- **Busca do gradiente de intensidade**. A imagem suavizada é então filtrada com o operador de Sorbel nas direções horizontais e verticais, assim obtendo as primeiras derivadas dessas direções. Com isso, podemos encontrar a direção do gradiente e consequentemente as bordas.
+- **Supressão não-máxima**. Para cada pixel é verificado se existe um máximo local no gradiente de direção. Se o ponto localizado na borda não for o máximo local, este é suprimido.
+- **Limiarização por histerese**. Geramos duas imagens, onde cada uma tem seus pixels não nulos maiores que um limiar pré-estabelecido (conhecidos como limiar inferior e limiar superior). Assim, as bordas que tiverem intensidade localizada entre os dois tresholds serão consideradas como bordas ou possíveis candidatas a bordas. se estas bordas mantém uma conectividade com as bordas que estão acima do limiar superior, é mantido a borda. Caso contrário, estas são excluídas.
+
+<p align="center">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+</p>
+<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+
+Para o caso do algoritmo aplicado, foi-se usado um desvio padrão de 5 e limiares com 10% e 15% do valor da intensidade máxima da imagem. Fornecemos esses parâmetros em conjunto com a imagem na função acima resultará na imagem abaixo:
+
+<p align="center">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+</p>
+<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+
+Transformações morfológicas são operações simples com a imagem utilizando-se principalmente de suas formas. No contexto desse projeto nós utilizamos operador de **fechamento**, que ajuda a remover o ruído interno (como pequenos buracos) dos objetos de estudo da imagem. Além deste, também utilizamos o operador gradiente morfológico para encontrar contornos no objeto. Abaixo, podemos ver como estes operadores foram utilizados:
+<p align="center">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+</p>
+
+<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+
 ## Metodologia
 
 ### Algoritmo <a name="algoritmo"></a>
