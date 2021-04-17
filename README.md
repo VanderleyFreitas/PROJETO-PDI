@@ -13,9 +13,10 @@
 1. [Introdução](#introducao)
     1. [Estudo do problema](#estudo-problema)
 2. [Aquisição de imagens](#aquisicao)
-3. [Pré-processamento](#preprocessamento)
+    1. [Algoritmo](#algoritmo)
+4. [Pré-processamento](#preprocessamento)
     1. [Sub paragraph](#subparagraph1)
-4. [Processamento](#processamento)
+5. [Processamento](#processamento)
 
 5. [conclusao](#conclusao)
 
@@ -43,16 +44,30 @@ Nesta etapa, foi realizado o desenvolvimento de um sistema que permita obter as 
 <p align="center">
 <img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/frames312.jpg" width="480">
 </p>
+<p align="center">Figura 1 - Exemplo de imagem adquirida na aquisição de imagens</p>
 
 A criação do vídeo é feita utilizando o método componentDidMoint(), que realiza os desenhos no canvas e posteriormente são renderizados. Por fim, as imagens já são adicionadas com ruidos inseridos.
 
 ## Pré-processamento <a name="preprocessamento"></a>
-Na seção se pré-processamento temos
+Na seção de pré-processamento temos como atividade a manipulação das imagens obtidas com o intuito de realizar correções suficientes para que as mesmas estejam aptas ou adequadas para serem processadas. No contexto deste trabalho, estaremos minimizando possíveis ruídos inerentes da obtenção das imagens pelas câmeras e também gerando informações que permitam a equipe de processamento inferir as diferentes classes dos bolos.
+Nesta seção, portanto, fora operado os seguintes métodos:
+- Detecção de bordas de Canny
+- Transformações morfológicas
 
-### Processamento <a name="subparagraph1"></a>
+### Algoritmo <a name="algoritmo"></a>
+[CONTEUDO SOBRE ALGORITMO DE CANNY]
+
+Transformações morfológicas são operações simples com a imagem utilizando-se principalmente de suas formas. No contexto desse projeto nós utilizamos operador de **fechamento**, que ajuda a remover o ruído interno (como pequenos buracos) dos objetos de estudo da imagem. Além deste, também utilizamos o operador gradiente morfológico para encontrar contornos no objeto. Abaixo, podemos ver como estes operadores foram utilizados:
+<p align="center">
+<img src="https://github.com/VanderleyFreitas/PROJETO-PDI/blob/main/md_images/preprocessing_morphologic_operators.jpg" width="600">
+</p>
+
+<p align="center">Figura 2 - Implementação das operações morfológicas</p>
+
+### Processamento <a name="processamento"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-## Another paragraph <a name="processamento"></a>
+## Another paragraph <a name="subparagraph1"></a>
 The second paragraph text
 
 ## Conclusão <a name="conclusao"></a>
