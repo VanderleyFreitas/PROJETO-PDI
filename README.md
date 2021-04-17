@@ -276,7 +276,7 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | ANDRÉ LUIS DANTAS GADELHA  | 399184 |
 
 ### Equipe de Processamento
-- Tarefas : Classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
+- Tarefas : classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
 - Líder : ALUISIO ALVES DA CUNHA (409878)
 
 | Nome  | Matrícula |
@@ -290,5 +290,9 @@ Com o término da execução do projeto e a devida implementação e teste do me
 | RAYANE MARUSCA SOUSA DE ASSIS  | 371858 |
 
 ### Equipe de Teste e Qualidade
-- Tarefas : Classificar os bolos com cobertura, meia cobertura e sem cobertura; gerar imagens com objetos devidamente identificados;
-- Líder : ALUISIO ALVES DA CUNHA (409878)
+- Tarefas : garantir que o projeto atende os requisitos; garantir funcionalidades e qualidade do produto; projetar e testar novas funcionalidades; elaborar documentação;
+- Líder : RANCISCO CARLOS DE ALMEIDA PAULINO FILHO (371801)
+
+| Nome  | Matrícula |
+|---|---|
+| ABEL PINHEIRO DE FIGUEIREDO  | 396432 |
