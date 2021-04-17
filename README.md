@@ -32,7 +32,7 @@ Visando aferir qualitativamente a aplicação desenvolvida, fora produzido um v�
 * Delinear os bolos, isto é, conseguir localizá-los em seus respectivos frames.
 * Identificar possíveis relevos, como também o centro do bolo para assim conseguir classificá-los.
 
-Objetivando simplificar o problema, os membros pertencentes a este projeto formaram 5 equipes as quais atuariam independentemente visando assim concluir os requisitos de forma mais eficiente. As equipes formadas foram:
+Objetivando simplificar o problema, os membros pertencentes a este projeto formaram 4 equipes as quais atuariam independentemente visando assim concluir os requisitos de forma mais eficiente. As equipes formadas foram:
 * Aquisição das imagens
 * Pré-processamento do vídeo
 * Processamento do vídeo
@@ -67,7 +67,7 @@ Transformações morfológicas são operações simples com a imagem utilizando-
 ### Processamento <a name="processamento"></a>
 This is a sub paragraph, formatted in heading 3 style
 
-## Another paragraph <a name="subparagraph1"></a>
+## Teste e Qualidade <a name="teste e qualidade"></a>
 The second paragraph text
 
 ## Conclusão <a name="conclusao"></a>
